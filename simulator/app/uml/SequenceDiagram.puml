@@ -1,0 +1,16 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+title ECR Aplikacija (Simulacija SmartPOS uređaja)
+
+participant "MainActivity" as A
+participant "LastTransaction" as B
+
+A -> B: Authentication Request
+B --> A: Authentication Response
+
+A -> B: Another authentication Request
+A <-- B: another authentication Response
+@enduml

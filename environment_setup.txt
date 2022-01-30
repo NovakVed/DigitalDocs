@@ -1,0 +1,4 @@
+FrontEnd:
+1) open bash in folder AIR2026/frontend
+2) type: npm install
+3) start the project app with command: npm start
